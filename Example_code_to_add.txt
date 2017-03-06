@@ -1,0 +1,80 @@
+//The syntax for adding code would look like this:
+
+DigiKeyboard.sendKeyStroke(KEY_A , MOD_CONTROL_LEFT | MOD_ALT_LEFT);  // for pressing multiple keys at the same time
+DigiKeyboard.sendKeyStroke(KEY_A , MOD_CONTROL_LEFT);                 // for moding a key press
+DigiKeyboard.println("hello world");                                  // to print out a string
+DigiKeyboard.delay(5000);                                             // to delay 
+DigiKeyboard.update();                                                // to update
+
+
+
+//different mods to the key presses
+
+MOD_CONTROL_LEFT    //left control button
+MOD_SHIFT_LEFT      //left shift button
+MOD_ALT_LEFT        //left Alt button
+MOD_GUI_LEFT        //left windows button
+MOD_CONTROL_RIGHT   //right control button 
+MOD_SHIFT_RIGHT     //right shift button
+MOD_ALT_RIGHT       //right Alt button
+MOD_GUI_RIGHT       //right windows button
+  
+  
+  
+//different key presses
+
+KEY_PrintScreen
+KEY_A      
+KEY_B      
+KEY_C     
+KEY_D       
+KEY_E       
+KEY_F       
+KEY_G      
+KEY_H       
+KEY_I      
+KEY_J       
+KEY_K       
+KEY_L      
+KEY_M      
+KEY_N       
+KEY_O       
+KEY_P      
+KEY_Q      
+KEY_R      
+KEY_S      
+KEY_T       
+KEY_U      
+KEY_V       
+KEY_W       
+KEY_X      
+KEY_Y       
+KEY_Z      
+KEY_1       
+KEY_2      
+KEY_3     
+KEY_4       
+KEY_5     
+KEY_6       
+KEY_7     
+KEY_8      
+KEY_9       
+KEY_0      
+KEY_ENTER  
+KEY_SPACE  
+KEY_F1     
+KEY_F2    
+KEY_F3     
+KEY_F4     
+KEY_F5     
+KEY_F6     
+KEY_F7     
+KEY_F8     
+KEY_F9     
+KEY_F10   
+KEY_F11    
+KEY_F12    
+KEY_ARROW_UP      
+KEY_ARROW_DOWN    
+KEY_ARROW_LEFT     
+KEY_ARROW_RIGHT   
