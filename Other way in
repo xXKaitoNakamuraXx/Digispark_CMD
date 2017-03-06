@@ -1,0 +1,147 @@
+
+void setup()
+{ 
+waitForDrivers ();
+
+main ()
+}
+
+
+
+
+
+void waitForDrivers()
+{
+while (!(keyboard_leds & 2))
+
+    {    key(KEY_CAPS_LOCK, 0);   }  
+
+if (keyboard_leds & 2)
+
+    {   key(KEY_CAPS_LOCK, 0);  }
+
+}
+
+
+
+
+
+void main()
+ {
+
+DigiKeyboard.sendKeyStroke(KEY_F10 , MOD_SHIFT_LEFT);
+  DigiKeyboard.delay(500);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.println("cmd.exe");
+  DigiKeyboard.delay(500);
+
+DigiKeyboard.sendKeyStroke(KEY_F , MOD_ALT_LEFT);
+  DigiKeyboard.delay(500);  
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.println("cmd.bat");
+  DigiKeyboard.delay(500);
+
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(MOD_GUI_LEFT);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.println("cmd");
+  DigiKeyboard.delay(500);
+
+DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_DOWN);
+  DigiKeyboard.delay(100);  
+  DigiKeyboard.sendKeyStroke(KEY_AKEY_ARROW_UP);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(100);
+
+DigiKeyboard.println("color a");
+  DigiKeyboard.delay(500);
+
+DigiKeyboard.println("tree");
+  DigiKeyboard.delay(500);
+
+}
+
+
+
+
+
+
+
+
+
+
