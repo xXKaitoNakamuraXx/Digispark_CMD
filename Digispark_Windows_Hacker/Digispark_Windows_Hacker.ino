@@ -2,11 +2,7 @@
 #include "DigiKeyboard.h"
 
 void setup() {
-  
-}
-
-void loop() {
-   DigiKeyboard.sendKeyStroke(0);
+  DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.sendKeyStroke(KEY_R , MOD_GUI_LEFT); //opens run
   DigiKeyboard.delay(500);
   DigiKeyboard.println("notepad"); //opens notepad
@@ -25,5 +21,9 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.println("color a");
   DigiKeyboard.delay(5000);
+}
+
+void loop() {
+ 
   
 }
